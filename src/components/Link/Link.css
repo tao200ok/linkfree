@@ -20,7 +20,7 @@ a.link:hover {
 
 
 
-a#slack {
+article > a#slack {
     visibility: hidden;
 }
 
