@@ -7,8 +7,8 @@ function Social() {
     return (
         <div className='social_links'>
             <div>
-                <a id="slack" className='social' href='http://slack.com/tao' target="_blank" rel='noreferrer'><img src={slack} alt='' /></a>
-                <a id="github" className='social' href='https://github.com/tao200ok' target="_blank" rel='noreferrer'><img src={github} alt='' /></a>
+                <a id="slack" className='social' href='http://slack.com/tao' target="_blank" rel='noreferrer'><img src={slack} alt='slack link' /></a>
+                <a id="github" className='social' href='https://github.com/tao200ok' target="_blank" rel='noreferrer'><img src={github} alt='github link' /></a>
             </div>
         </div>
     );

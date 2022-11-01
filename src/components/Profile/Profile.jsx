@@ -4,7 +4,7 @@ import './Profile.css';
 
 import shareIcon from '../../assets/share_icon.svg';
 
-import profileImage from '../../assets/profile__img.svg'
+import profileImage from '../../assets/profile__img.jpeg'
 
 function Profile() {
     return (
