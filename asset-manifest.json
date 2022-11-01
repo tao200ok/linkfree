@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/linkfree-hngi9/static/css/main.bad5397b.css",
+    "main.js": "/linkfree-hngi9/static/js/main.a5775903.js",
+    "static/js/787.fec75708.chunk.js": "/linkfree-hngi9/static/js/787.fec75708.chunk.js",
+    "static/media/profile__img.jpeg": "/linkfree-hngi9/static/media/profile__img.575420ccd9ff73c11c9a.jpeg",
+    "static/media/I4G.svg": "/linkfree-hngi9/static/media/I4G.601ff0479d970c740e8b7d7ba7821548.svg",
+    "static/media/Zuri.svg": "/linkfree-hngi9/static/media/Zuri.0f8c3aa843c87d1f28aa0826858bd0ef.svg",
+    "static/media/slack.svg": "/linkfree-hngi9/static/media/slack.6fa75d08a444264c64393c623e71c055.svg",
+    "static/media/github.svg": "/linkfree-hngi9/static/media/github.05ffca422514a5bbf3ac752e4d893c57.svg",
+    "static/media/share_icon.svg": "/linkfree-hngi9/static/media/share_icon.e3f81b496e21f13d54272e5772ace63b.svg",
+    "index.html": "/linkfree-hngi9/index.html",
+    "main.bad5397b.css.map": "/linkfree-hngi9/static/css/main.bad5397b.css.map",
+    "main.a5775903.js.map": "/linkfree-hngi9/static/js/main.a5775903.js.map",
+    "787.fec75708.chunk.js.map": "/linkfree-hngi9/static/js/787.fec75708.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bad5397b.css",
+    "static/js/main.a5775903.js"
+  ]
+}
