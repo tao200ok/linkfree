@@ -1,3 +1,49 @@
 header {
+    position: relative;
     text-align: center;
+    width: 100%;
+    max-width: 696px;
+    margin: auto;
+    margin-top: 40px;
 }
+
+#profile__image {
+    margin: 24px;
+}
+
+h1 {
+    /* Add fontsizes, margins and share button to complete */
+}
+
+header .share {
+    position: absolute;
+    padding: 12.5px;
+    top: 0px;
+    right: 0px;
+    border: 1px dashed rgba(208, 213, 221, 1);
+    border-radius: 50%;
+}
+
+img#share:hover {
+    background-color: rgba(208, 213, 221, 0.2);   
+}
+
+.share .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    left: -125px;
+    
+    z-index: 1;
+  }
+  
+  @media only screen and (min-width: 480px) {
+    .share:hover .tooltiptext {
+        visibility: visible;
+      }
+  }
