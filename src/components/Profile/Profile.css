@@ -27,7 +27,7 @@ header .share {
     border-radius: 50%;
 }
 
-img#share:hover {
+header .share:hover {
     background-color: rgba(208, 213, 221, 0.2);   
 }
 
