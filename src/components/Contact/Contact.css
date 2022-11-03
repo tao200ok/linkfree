@@ -28,7 +28,7 @@
     flex-direction: column;
 }
 
-#form-container form > *:not(label, br, #form__name) {
+#form-container form > *:not(label, br, #name) {
     margin-top: 6px;
     margin-bottom: 24px;
 }
@@ -37,17 +37,17 @@
     width: 100%;
 }
 
-#form__name {
+#name {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#form-container form #form__name .name-field-container {
+#form-container form #name .name_field-container {
     width: 48%;
 }
 
-#form__name .name-field-container > *:not(label, br) {
+#name .name_field-container > *:not(label, br) {
     margin-top: 6px;
     margin-bottom: 24px;
 }
@@ -58,7 +58,7 @@ label {
     color: rgb(52, 64, 84);
 }
 
-label[for="form__consent-checkbox"] {
+label[for="consent-checkbox"] {
     font-size: 16px;
     color: rgb(71, 84, 103);
 }
@@ -83,7 +83,7 @@ textarea {
     margin-bottom: 32px;
 }
 
-#form__consent-checkbox {
+#consent-checkbox {
     height: 20px;
 }
 
@@ -92,7 +92,7 @@ input[type="checkbox"] {
     margin-right: 12px;
 }
 
-input[type="submit"] {
+#btn__submit {
     border: 0px;
     color: rgb(255, 255, 255);
     background-color: rgba(21, 112, 239, 1);
@@ -109,11 +109,11 @@ input[type="submit"] {
     font-size: 1.125rem;
     }
 
-    #form__name {
+    #name {
         flex-direction: column;
     }
 
-    #form-container form #form__name .name-field-container {
+    #form-container form #name .name_field-container {
         width: 100%;
     }
 }
