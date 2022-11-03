@@ -1,7 +1,5 @@
 import './Profile.css';
 
-// import Link from '../Link/Link';
-
 import shareIcon from '../../assets/share_icon.svg';
 
 import profileImage from '../../assets/profile__img.jpeg';
