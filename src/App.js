@@ -1,17 +1,13 @@
 import './App.css';
 
-import Profile from './components/Profile/Profile';
-import Links from './components/Links/Links';
+import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
-import Social from './components/Social/Social';
 
 function App() {
   return (
     <div className="App">
       <main>
-        <Profile />
-        <Links />
-        <Social />
+        <Home />
       </main>
       <Footer />
     </div>
