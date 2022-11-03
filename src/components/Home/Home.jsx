@@ -6,11 +6,11 @@ import Social from '../Social/Social';
 
 function Home() {
     return (
-        <>
+        <article id="home">
             <Profile />
             <Links />
             <Social />
-        </>
+        </article>
     )
 }
 
