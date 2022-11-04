@@ -1,6 +1,12 @@
 import './Contact.css';
 
+import { useEffect } from 'react';
+
 function Contact() {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+  
     return (
         <article id="form-container">
             <header>
