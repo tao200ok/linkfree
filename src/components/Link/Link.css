@@ -15,9 +15,12 @@ a.link:visited {
 }
 
 a.link:hover {
-    background-color: rgba(242, 244, 247, 1);
+    background-color: rgba(208, 213, 221, 1);
 }
 
+a:focus {
+    outline: 1px solid rgba(152, 162, 179, 1);
+}
 
 
 article > a#slack {

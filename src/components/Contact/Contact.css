@@ -69,9 +69,18 @@ form input, form textarea {
     border: 1px solid rgba(208, 213, 221, 1);
     font-family: inherit;
     font-size: 16px;
+    transition: border 0.125s ease-in-out;
+}
+
+form input:focus,
+form textarea:focus,
+form input:hover,
+form textarea:hover {
+    border: 1.5px solid rgb(104, 187, 250);
 }
 
 textarea {
+    height: 132px;
     resize: none;
 }
 
@@ -97,6 +106,14 @@ input[type="checkbox"] {
     color: rgb(255, 255, 255);
     background-color: rgba(21, 112, 239, 1);
     padding: 12px 20px;
+}
+
+#btn__submit:hover {
+    background-color: rgba(23, 92, 211, 1);
+}
+
+#btn__submit:focus {
+    border: 1px solid rgba(21, 112, 239, 0.5);
 }
 
 @media only screen and (max-width: 768px) {
