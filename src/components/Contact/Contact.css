@@ -102,10 +102,15 @@ input[type="checkbox"] {
 }
 
 #btn__submit {
-    border: 0px;
+    display: block;
+    border: 1px solid rgba(21, 112, 239, 0.5);
+    border-radius: 8px;
     color: rgb(255, 255, 255);
     background-color: rgba(21, 112, 239, 1);
     padding: 12px 20px;
+    font-family: inherit;
+    font-size: 16px;
+    transition: border 0.125s ease-in-out;
 }
 
 #btn__submit:hover {
@@ -116,7 +121,7 @@ input[type="checkbox"] {
     border: 1px solid rgba(21, 112, 239, 0.5);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 550px) {
     #form-container {
         width: 100%;
         margin: 0px auto;

@@ -30,7 +30,7 @@ function Contact() {
                     <input type="checkbox" required id="consent-checkbox" />
                     <label htmlFor="consent-checkbox">You agree to providing your data to Taofeeq Hamzat who may contact you.</label>
                 </div>
-                <input type="submit" id="btn__submit" value="Send message" />
+                <button type="submit" id="btn__submit">Send message</button>
             </form>
         </article>
     )
