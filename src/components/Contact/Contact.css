@@ -22,12 +22,6 @@
     color: rgb(71, 84, 103);
 }
 
-
-#form-container form {
-    display: flex;
-    flex-direction: column;
-}
-
 #form-container form > *:not(label, br, #name) {
     margin-top: 6px;
     margin-bottom: 24px;
